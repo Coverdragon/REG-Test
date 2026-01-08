@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: InflationTugcord Menu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>Toggle On</b>
+    icon: {fileID: 2800000, guid: 65a9fb02ba2b45143864052b47009bd2, type: 3}
+    type: 102
+    parameter:
+      name: ANIN/InflationTugcord/ToggleOn
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: ' '
+    icon: {fileID: 2800000, guid: f2cc74a6192f6ea439490c38c563eabc, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Disable Deflate
+    icon: {fileID: 2800000, guid: c70874162756e4a448513a4e50808e8a, type: 3}
+    type: 102
+    parameter:
+      name: ANIN/InflationTugcord/AllowDeflate
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Disable Sound
+    icon: {fileID: 2800000, guid: fb850a06efb98d040aed610866b062d9, type: 3}
+    type: 102
+    parameter:
+      name: ANIN/InflationTugcord/DisableTugSFX
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Maximum 50 Inflation
+    icon: {fileID: 2800000, guid: c70874162756e4a448513a4e50808e8a, type: 3}
+    type: 102
+    parameter:
+      name: ANIN/InflationTugcord/Max50
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: ' '
+    icon: {fileID: 2800000, guid: f2cc74a6192f6ea439490c38c563eabc, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Credits
+    icon: {fileID: 2800000, guid: 4e0739002c741dd4ca68e2fc3937b620, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 9e2f642f504eb2349a5b1e8d32a2510c, type: 2}
+    subParameters:
+    - name: 
+    labels: []

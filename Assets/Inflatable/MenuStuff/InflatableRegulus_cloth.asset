@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: InflatableRegulus_cloth
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 440f68a95c1f8994dadfd9d3118296ad, type: 2}
+  controls:
+  - name: Body Suit
+    icon: {fileID: 2800000, guid: a6f3bc41172776840927a801e23cb735, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/BodySuit/BodySuit
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Arm Warmers
+    icon: {fileID: 2800000, guid: a7264ed869918ba4a81a0b7b2acb72c7, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/BodySuit/ArmWarmers
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Leg Warmers
+    icon: {fileID: 2800000, guid: f0b57f7176aaf3741993685bbc98a167, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/BodySuit/LegWarmers
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Crop Top
+    icon: {fileID: 2800000, guid: d106d72d177d3da41b8fdafc17f6be4d, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/BodySuit/CropTop
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Shorts
+    icon: {fileID: 2800000, guid: 84cec53b66755e143af88cbff266d3a5, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/BodySuit/Shorts
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Poncho
+    icon: {fileID: 2800000, guid: cf6591defe625af4d91ceaf896268364, type: 3}
+    type: 102
+    parameter:
+      name: Poncho
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: InflatableRegulus_Main
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 440f68a95c1f8994dadfd9d3118296ad, type: 2}
+  controls:
+  - name: <b><size=13px>Inflatable
+    icon: {fileID: 2800000, guid: b7d08506d87f16c448f17ae268a3702a, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: 11400000, guid: b9e3010c133f7f74d8b316ea11f2d5de, type: 2}
+    subParameters: []
+    labels: []
+  - name: <b>Texture
+    icon: {fileID: 2800000, guid: 84afae3e7e7a0274d95ad401d4de0f55, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 54260ad6aff781b47892ee9dcdb7e880, type: 2}
+    subParameters: []
+    labels: []
+  - name: <b>Clothing
+    icon: {fileID: 2800000, guid: d8f71eb960776e24280cf957d5461d46, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 519441b4e7ad48343a197fa27df859d3, type: 2}
+    subParameters: []
+    labels: []
+  - name: <b>Expressions
+    icon: {fileID: 2800000, guid: af1ba8919b0ccb94a99caf43ac36f97d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a68e3b71993cf8e4bbd941f68b131788, type: 2}
+    subParameters: []
+    labels: []

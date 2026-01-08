@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: PooltoySettings
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 440f68a95c1f8994dadfd9d3118296ad, type: 2}
+  controls:
+  - name: <b>Toy Shape
+    icon: {fileID: 2800000, guid: bc30eb881e76f214fb5f14128ebd561d, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/InflatableSmall
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>ShapeFull 2
+    icon: {fileID: 2800000, guid: d558efa23cbaaab4cacf0490fc2cb4d6, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/InflatableAlt
+    value: 0.5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b><size=13px>ShapeFull 2+
+    icon: {fileID: 2800000, guid: 070578d97dc07434588b80df1cdc52b8, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/InflatableAlt
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pooltoy Handles
+    icon: {fileID: 2800000, guid: 3c49a040f3d85b34b87f611b97853782, type: 3}
+    type: 102
+    parameter:
+      name: Pooltoy/BodySuit/Handles
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Body Sliders
+    icon: {fileID: 2800000, guid: 99ed9fab51a0ec9439766569abe5d154, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c91eddd4c6eba5e48a3ef2e75001dc0c, type: 2}
+    subParameters: []
+    labels: []

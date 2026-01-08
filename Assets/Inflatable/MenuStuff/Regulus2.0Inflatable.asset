@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Regulus2.0Inflatable
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 440f68a95c1f8994dadfd9d3118296ad, type: 2}
+  controls:
+  - name: <b><size=14px>Inflatable
+    icon: {fileID: 2800000, guid: ad3871b14904eac4abfbf1c177140910, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: ANIN/InflationTugcord/Input
+    labels: []
+  - name: <b>Pump Menu
+    icon: {fileID: 2800000, guid: 50e9646bf7e663540ae5f458a32a6021, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 5b109f9ef6c84b34b8ea1609152e4527, type: 2}
+    subParameters: []
+    labels: []
+  - name: <b>Pooltoy Settings
+    icon: {fileID: 2800000, guid: 70d59bd4a12a65f44bae9c7a4ede8010, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f386d194e16e98a418a152c4197b36c5, type: 2}
+    subParameters: []
+    labels: []
+  - name: <b>Squeaky Sounds
+    icon: {fileID: 2800000, guid: ca05af24483bbb148bed717581771e93, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 04bac563b0eca0c4384d481f7455aeff, type: 2}
+    subParameters: []
+    labels: []

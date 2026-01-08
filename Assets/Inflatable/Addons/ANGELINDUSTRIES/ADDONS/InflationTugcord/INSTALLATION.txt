@@ -1,0 +1,63 @@
+Be aware that this WILL replace your old inflation system
+Also, you need VRCFury for this
+
+You can always refer to the installation video if you need visuals
+(Should be included in the zip file this came in)
+(if not; then it can be found at https://sapah.carrd.co/#freebies)
+
+
+========INSTRUCTIONS=======
+
+1) Drag and drop the prefab inside the root of your avatar
+
+*If your avatar already has an inflation animation then you can skip this
+
+*2a) Create a duplicate of the avatar and create an inflation animation;
+The animation must have the initial state (0 inflation) at the first frame
+and the final frame must be the final state (100 inflation)
+final frame can be put at any time, just has to happen after the first one
+
+*2b)Select the animation file, untick loop time
+
+
+3) Find the FX animator of your avatar and add float called "ANIN/InflationTugcord/Output" without the quotes then:
+
+
+4a)If the original inflation animation is a blendtree:
+
+Go find it and replace its parameter to "ANIN/InflationTugcord/Output"
+
+4b)If the original inflation animation is a motion time animation:
+
+Go find it and replace its motion time parameter to "ANIN/InflationTugcord/Output"
+
+*4c)If you *DID NOT* skip step 2:
+
+*Find the original inflation animation in the animator and disable it via any of these methods:
+*deleting the layer
+*setting layer weight to 0
+*making an empty transition
+*deleting the state itself
+
+*THEN:
+
+*Drag and drop the new inflation animation you created, and set motion time to this parameter
+"ANIN/InflationTugcord/Output"  
+
+
+
+The tugcord should be working now, but:
+
+
+5) Currently this breaks any basic radial you might have for the inflation, to fix this you must add 
+"ANIN/InflationTugcord/Input" without the quotes to your vrchat parameter list
+
+6) then go find the menu asset that contains the original inflation radial and replace its parameter with "ANIN/InflationTugcord/Input" 
+
+
+
+NOTES:
+
+An additional thing is that you can modify your animation to scale the gameobject called "CollarScale Proxy" if its clipping with the neck on its final state
+
+There are customization options, find the mesh renderer of the tugcord and check the shapekeys!

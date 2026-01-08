@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: InflatableAdvanced
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 440f68a95c1f8994dadfd9d3118296ad, type: 2}
+  controls:
+  - name: Arms
+    icon: {fileID: 2800000, guid: 5aaf30f29cfd9ca47afa3ef06ba5e197, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Pooltoy/Arms
+    labels: []
+  - name: Bappers
+    icon: {fileID: 2800000, guid: 09388f0983159ec41811c8a51a0f516e, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Pooltoy/Bappers
+    labels: []
+  - name: Butt
+    icon: {fileID: 2800000, guid: 19f84d78ef70e85459573f9b6a023f22, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Pooltoy/Butt
+    labels: []
+  - name: Stompers
+    icon: {fileID: 2800000, guid: 638bf8695599d924fb5ac2ec977f30ca, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Pooltoy/BiggerThighs
+    labels: []
+  - name: Chest
+    icon: {fileID: 2800000, guid: 337bb106a5115424ca5f2e8151c92aa3, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Pooltoy/Chest
+    labels: []
+  - name: Tummy
+    icon: {fileID: 2800000, guid: a0342e5c320cb5549af03d8d07ce3335, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Pooltoy/Tummy
+    labels: []

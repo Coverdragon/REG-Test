@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: GoBone_Menu
   m_EditorClassIdentifier: 
-  Parameters: {fileID: 11400000, guid: 67be67c72b2007749bf719294213953e, type: 2}
   controls:
   - name: <b>Next Color
     icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
