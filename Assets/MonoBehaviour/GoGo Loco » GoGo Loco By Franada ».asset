@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: 'GoGo Loco » GoGo Loco By Franada » '
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 7ddbb6d4f06be964783b988fe303a1e8, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 88622778e4e77d44e97736f97c2e96c4, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 0
+    style: 0
+    subMenu: {fileID: 11400000, guid: 80beb8d56bab0aa43814af3f705dcf6f, type: 2}
+    subParameters: []
+    labels: []
+  - name: '<b>Hovering'
+    icon: {fileID: 2800000, guid: 6da5839f7dc60d04ebf50bb7cd34ed26, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandType
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: df0ef4f8e10201e4f913d156ec0e57ad, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 254
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: cb8e7349917272c4e9bb3849262720ef, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Height
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 83c4c4c5eaf651a4185defd4e916eb02, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 1111457b80db8714aba2db87fa22c2ea, type: 2}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 286979e0fe05ce64388fa5bc78bc4231, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

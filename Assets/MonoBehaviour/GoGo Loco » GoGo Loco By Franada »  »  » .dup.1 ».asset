@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: 'GoGo Loco » GoGo Loco By Franada »  »  » .dup.1 » '
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 74651a9bb2d00824e8d5f623385434f7, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 06d81790482fd8a43b09ae838a4c536b, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 11
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: fa81ce440d198824dba9ed91bdf9b129, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 13
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: db83c5cc8d604cf4ba67dd9b1995723b, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 14
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 96c493ffb15740b4aa94edf510a125f2, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 15
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: db83c5cc8d604cf4ba67dd9b1995723b, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 16
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

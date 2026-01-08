@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Customization » Alt Texture
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#E9FFA5><b>Accent1</b></color>'
+    icon: {fileID: 2800000, guid: 437dffbe2f711ed48a11fbd07f623964, type: 3}
+    type: 203
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: C/ColorAltRadial
+    labels: []
+  - name: '<b><color=#AEB5FF>Accent2</color></b>'
+    icon: {fileID: 2800000, guid: b652b69f2fd4fe44987d1c28fa3a1629, type: 3}
+    type: 203
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: C/ColorAltRadial2
+    labels: []
+  - name: '<b>Alt Texture Enable</b>'
+    icon: {fileID: 2800000, guid: b6c31cbf0ac23a645b98ca589a548e0b, type: 3}
+    type: 102
+    parameter:
+      name: C/ColorAlt
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#DDDDDD>Mouth Thingy</color>'
+    icon: {fileID: 2800000, guid: 8a0a557e3ba9cc141a0cebde73e107d3, type: 3}
+    type: 102
+    parameter:
+      name: C/HydroponicsMouthThingie
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#E2E2E2>Bugtail</color>'
+    icon: {fileID: 2800000, guid: 3253e6fab0ae39844ba65253b0bfe1e8, type: 3}
+    type: 102
+    parameter:
+      name: C/Bugtail
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: SteamBreath
+    icon: {fileID: 2800000, guid: 465313e320f347a4d854fd999e06baf4, type: 3}
+    type: 102
+    parameter:
+      name: C/SteamBreath
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: ColorPresets
+    icon: {fileID: 2800000, guid: 13a8c1d6e70ee8e4da17f85efca09ad0, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 2a3271849b8456049977b94eef71c955, type: 2}
+    subParameters:
+    - name:
+    labels:
+    - name:
+      icon: {fileID: 0}
+    - name:
+      icon: {fileID: 0}
+    - name:
+      icon: {fileID: 0}
+    - name:
+      icon: {fileID: 0}

@@ -1,0 +1,15 @@
+* Screenspace prophet, mask prophet, early testing & feedback
+  -Lime @greatmastix
+
+* Material presets, early testing & feedback
+  MapleMakes @Maple_Marten
+
+* Mask model
+  ChaosHideout @chaoshideout
+
+* Early testing & feedback
+  Mocha @WelshAnomaly
+
+* Bug reports
+  * Storm#4637
+  * -Lime @greatmastix

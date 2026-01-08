@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Adjust & Other » Expressions » 表情 2
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: 照れ
+    icon: {fileID: 2800000, guid: 5431e4bea5bdc9a4e954e0e984a32f64, type: 3}
+    type: 102
+    parameter:
+      name: Face
+    value: 9
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: つかれた
+    icon: {fileID: 2800000, guid: d4ae2fa0b1e12c4449d4e081213348cd, type: 3}
+    type: 102
+    parameter:
+      name: Face
+    value: 10
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: 悲しい
+    icon: {fileID: 2800000, guid: 2c6a57b8f512d3849b15a6b711694f77, type: 3}
+    type: 102
+    parameter:
+      name: Face
+    value: 11
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: ぴえん
+    icon: {fileID: 2800000, guid: 932c801c87b49794aa5722b44f36e65e, type: 3}
+    type: 102
+    parameter:
+      name: Face
+    value: 12
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: きらきら
+    icon: {fileID: 2800000, guid: e953b5c0006fe934c887ad04fe88123d, type: 3}
+    type: 102
+    parameter:
+      name: Face
+    value: 13
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: ぐるぐる
+    icon: {fileID: 2800000, guid: a792e52a042c31c4aa73424fc10bb364, type: 3}
+    type: 102
+    parameter:
+      name: Face
+    value: 14
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: じと目
+    icon: {fileID: 2800000, guid: 1a71f6470a5ad694c8c01826903332c6, type: 3}
+    type: 102
+    parameter:
+      name: Face
+    value: 15
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: ヤンデレ
+    icon: {fileID: 2800000, guid: 64e67df62d0761e4eb3d1505ffad734c, type: 3}
+    type: 102
+    parameter:
+      name: Face
+    value: 16
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

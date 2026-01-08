@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: 'GoGo Loco » GoGo Loco By Franada »  »  » '
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: ac4dd19ca7a4c0d4092923647c26f226, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>Widest'
+    icon: {fileID: 2800000, guid: aab14bbaf4b72e244a5cbb428e9eb18e, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>Wide'
+    icon: {fileID: 2800000, guid: aab14bbaf4b72e244a5cbb428e9eb18e, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>Default'
+    icon: {fileID: 2800000, guid: aab14bbaf4b72e244a5cbb428e9eb18e, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 0
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

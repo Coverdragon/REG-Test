@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Adjust & Other » Patchnotes
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<i><color=#FFFFFF><b>Ver 01.SEP.25</b></color></i>'
+    icon: {fileID: 2800000, guid: 4f9b2595265a2ca418bad5e62daef7c4, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Fixed some hypno stuff
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Fixed model tangents being weird
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Added avatar thumbnail & filled out Tags
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: 'I forgot to add a menu 💀:skull:'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name:
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name:
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#FFFFFF><b>You can always get in contact for additions sapah.carrd.co</b></color>'
+    icon: {fileID: 2800000, guid: 57cc9a25f2604994ebf22d56403e6cad, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

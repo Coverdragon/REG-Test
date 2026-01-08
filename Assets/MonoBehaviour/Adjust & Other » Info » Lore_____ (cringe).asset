@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Adjust & Other » Info » Lore????? (cringe)
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#E1FBFF><i><b>Trustee</b></i></color>'
+    icon: {fileID: 2800000, guid: 9b65715e92f82cb49ae1e5509ae09a72, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#E0EEEE>Is a general-purpose Assistant Drone, Initially produced for off-world scouting, then repurposed for the general public.</color>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#E0EEEE>Highly popular and high on demand due to their soft outer hull</color>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#E0EEEE>They''re happy to help just about anyone!</color>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#CDDEB9>Excellent chefs! I tell you...</color>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#CDDEB9>Just like their Trustee Type counterpart, they''re assistants. Though they''re specialized for plant processing.</color>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#CDDDB9>Powered by steam, Hydroponics Robots house a living plant specimen inside.</color>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#F4FFDC><b>Hydroponics</b></color>'
+    icon: {fileID: 2800000, guid: b5a227939243a5d4198d5d1f03cade5f, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

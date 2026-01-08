@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Customization » Hypno » Patterns & Speed
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#DDDDDD><b>Speed</b></color>'
+    icon: {fileID: 2800000, guid: 3856ea54cb8dfe746a6ba22a367c0bba, type: 3}
+    type: 203
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: L/HypnoSpeed
+    labels: []
+  - name:
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b><color=#D1FF8F><i>Floral</i></color></b>'
+    icon: {fileID: 2800000, guid: 437dffbe2f711ed48a11fbd07f623964, type: 3}
+    type: 102
+    parameter:
+      name: L/HypnoPattern
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b><color=#FF8888><i>Default</i></color></b>'
+    icon: {fileID: 2800000, guid: 9865c5c1c682f2e48bd6324842d700df, type: 3}
+    type: 102
+    parameter:
+      name: L/HypnoPattern
+    value: 0
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#BDBEFF><b><i>Squiggy</i></b></color>'
+    icon: {fileID: 2800000, guid: b652b69f2fd4fe44987d1c28fa3a1629, type: 3}
+    type: 102
+    parameter:
+      name: L/HypnoPattern
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

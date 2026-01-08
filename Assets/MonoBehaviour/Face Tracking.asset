@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Face Tracking
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: Settings
+    icon: {fileID: 2800000, guid: dd123ceedf1865a4b9e721e5e52da60b, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 439aaaf6f7df2634887a4b46b2ba034d, type: 2}
+    subParameters: []
+    labels: []
+  - name: Disable Facial Expressions
+    icon: {fileID: 2800000, guid: 65c7fc1f552d4e8409b9af19421fd219, type: 3}
+    type: 102
+    parameter:
+      name: FacialExpressionsDisabled
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Visemes Enabled
+    icon: {fileID: 2800000, guid: 0f5e341d7da052d4d8294cc0e284757b, type: 3}
+    type: 102
+    parameter:
+      name: VisemesEnable
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Eye Dilation Tracking
+    icon: {fileID: 2800000, guid: e39ec578664c7384ea514536f85a397e, type: 3}
+    type: 102
+    parameter:
+      name: EyeDilationEnable
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Eye Tracking
+    icon: {fileID: 2800000, guid: 9c46ed9087d0910428107a9f7cea30bb, type: 3}
+    type: 102
+    parameter:
+      name: EyeTrackingActive
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Lip Tracking
+    icon: {fileID: 2800000, guid: c1c02adcf87861544b52fe3a2c0d4b46, type: 3}
+    type: 102
+    parameter:
+      name: LipTrackingActive
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

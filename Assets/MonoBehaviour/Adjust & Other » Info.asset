@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Adjust & Other » Info
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<b>Lore????? (cringe)</b>'
+    icon: {fileID: 2800000, guid: 4f9b2595265a2ca418bad5e62daef7c4, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 0b266d7f1a9deec469cfd00dbcfc8726, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<b>Credits & notes</b>'
+    icon: {fileID: 2800000, guid: 4f9b2595265a2ca418bad5e62daef7c4, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 76783ca462806524186ea114ae6bf188, type: 2}
+    subParameters:
+    - name:
+    labels: []

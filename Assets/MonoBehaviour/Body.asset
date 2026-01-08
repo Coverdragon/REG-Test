@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Body
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#F5FFD0>Jigglyness</color>'
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 203
+    parameter:
+      name: L/JigglynessUpdateMenu
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: L/Jigglyness
+    labels: []
+  - name: '<color=#FFD692>Tummy Size</color>'
+    icon: {fileID: 2800000, guid: af87f0ab06f0dd2449a494e4e06bb5b9, type: 3}
+    type: 203
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: L/BellySize
+    labels: []
+  - name: '<color=#FFCE7E>Tummy Weight</color>'
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 203
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: L/BellyGravity
+    labels: []
+  - name: '<color=#FACC83>Tail Size</color>'
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 203
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: L/TailSize
+    labels: []
+  - name: '<color=#FACC83>Puffy Face</color>'
+    icon: {fileID: 2800000, guid: af87f0ab06f0dd2449a494e4e06bb5b9, type: 3}
+    type: 102
+    parameter:
+      name: L/PuffyCheeks
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#F5FFD1>Squishplane</color>'
+    icon: {fileID: 2800000, guid: fddbbfee1e337cc4199632ee3539705b, type: 3}
+    type: 102
+    parameter:
+      name: L/SquishplaneToggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#F5FFD1>SquishplanePin</color>'
+    icon: {fileID: 2800000, guid: 391445071951ab8459e1e85b817cd7f7, type: 3}
+    type: 102
+    parameter:
+      name: L/SquishPlaneWorldspace
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#F5FFD1>Touch Deform</color>'
+    icon: {fileID: 2800000, guid: 71cab4fbab325ee4ba6706cbcadc1056, type: 3}
+    type: 102
+    parameter:
+      name: L/TummyDeformDynamics
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

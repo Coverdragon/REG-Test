@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Customization » Hypno
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#C9E6E9>Paws Puppet</color>'
+    icon: {fileID: 2800000, guid: 76641e81d23747145b5f0970980e03a4, type: 3}
+    type: 201
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: PawX
+    - name: PawY
+    labels:
+    - name: 上
+      icon: {fileID: 0}
+    - name: 右
+      icon: {fileID: 0}
+    - name: 下
+      icon: {fileID: 0}
+    - name: 左
+      icon: {fileID: 0}
+  - name: '<b><color=#9DEAF3>Enable HypnoPaws</color></b>'
+    icon: {fileID: 2800000, guid: 7e0239c8282956b49a882f48411b2e99, type: 3}
+    type: 102
+    parameter:
+      name: L/HypnoPaws
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<color=#D8F9FD>Inflate Foot Paw</color>'
+    icon: {fileID: 2800000, guid: af87f0ab06f0dd2449a494e4e06bb5b9, type: 3}
+    type: 102
+    parameter:
+      name: L/FattenFootPaw
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#F2EFFF><b>Patterns & Speed</b></color>'
+    icon: {fileID: 2800000, guid: be573534dce3764409d185c412a9a906, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 3
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6ce20b8405f23414e934b1258631d4a5, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<color=#CCA48E><b>Show Focus Locally</b></color>'
+    icon: {fileID: 2800000, guid: b6c31cbf0ac23a645b98ca589a548e0b, type: 3}
+    type: 102
+    parameter:
+      name: L/HypnoFocusShowLocal
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#FFAF83><b>Enable Focus</b></color>'
+    icon: {fileID: 2800000, guid: 51f50a15e67f6c14991f6316c8443e4d, type: 3}
+    type: 102
+    parameter:
+      name: L/HypnoFocusEnable
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#CDA58E><b>Focus Target</b></color>'
+    icon: {fileID: 2800000, guid: be573534dce3764409d185c412a9a906, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: fa8f68b137aced04fa5fc20faed99c3f, type: 2}
+    subParameters:
+    - name:
+    labels: []

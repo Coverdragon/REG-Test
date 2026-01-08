@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: VRCFury Menu
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#CEFFF5><b>Explode</b></color>'
+    icon: {fileID: 2800000, guid: 96351c386c6ce6940a93df0fb8b08b24, type: 3}
+    type: 102
+    parameter:
+      name: L/Confettisplosion
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#ABC8C4><b>Adjust & Other</b></color>'
+    icon: {fileID: 2800000, guid: be573534dce3764409d185c412a9a906, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 1db8bf641da5fda4ab698dfcada5d346, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<color=#FFDEAA><b>Body</b></color>'
+    icon: {fileID: 2800000, guid: be573534dce3764409d185c412a9a906, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: bcced3584689d5948a7344c3c2c71661, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<color=#AAC8C4><b>Customization</b></color>'
+    icon: {fileID: 2800000, guid: be573534dce3764409d185c412a9a906, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 649eda3f37b48a44e96fb5dfc0f325c1, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: Face Tracking
+    icon: {fileID: 2800000, guid: ab8daf8d760f93c4da7f7e61e69bda64, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cd6b0b30c74719b4388c51cb58c2bbdb, type: 2}
+    subParameters: []
+    labels: []
+  - name: '<b>GoGo Loco'
+    icon: {fileID: 2800000, guid: e0c7ef0b412402d44b3773ad8a8a2fc5, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 573822da06dd7454d819c4d01c69bf10, type: 2}
+    subParameters: []
+    labels: []

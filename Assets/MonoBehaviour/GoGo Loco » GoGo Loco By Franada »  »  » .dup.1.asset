@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: GoGo Loco » GoGo Loco By Franada »  »  » .dup.1
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 6aa48d1fa3aa5104fa5030db0b6ff1ba, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 0
+    style: 0
+    subMenu: {fileID: 11400000, guid: 5aeaa837dfc8bd841adc6b94e62ad5e7, type: 2}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: fdb2417c171c61843bacf27298a3d64b, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 64a0906e864f6244183b4452656af6ac, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 1d010be39c256e74d9031790b02e5ff0, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 06d81790482fd8a43b09ae838a4c536b, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: e91cb8b02c1688042b9780a0a2ae1346, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: 8a64db3f5ef9de940b0808e568f4f379, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b>'
+    icon: {fileID: 2800000, guid: f74546bf06345b4418a8f1306e251374, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

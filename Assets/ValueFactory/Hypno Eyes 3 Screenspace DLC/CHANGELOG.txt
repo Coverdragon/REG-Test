@@ -1,0 +1,25 @@
+## Version 3.0.3
+* Changed how stencils work a bit: there is now a 'simple' and 'front and back' mode.
+  Stencils are set to 'simple' by default, which will provide stencil options for all faces.
+  The 'front and back' provides individual stencil settings for the back and front faces. This mode only takes effect when the material is locked.
+
+	This change was done as the front and back options were not properly working previously. A toggle between the two modes was needed for the front and back stencil options to work properly.
+
+== Version 3.0
+* Public 3.0 release.
+
+== Version 3.0-alpha1
+* Version 3.0 compatibility.
+
+== Version 1.0.2 - 2023-04-11  ==
+* Added a parameter to hide the screenspace effect in mirrors.
+  This is on by default!
+
+== Version 1.0.1 - 2023-03-31  ==
+
+* Moved non-transparent materials to the 1001 render queue. (thanks, @Storm, for the report!)
+  This will stop any of the material presets from applying to the skybox instead of the cube you want to drag them onto.
+
+	You'll likely want to update your materials to use the 1001 render queue if this was something you kept running to!
+
+	Keep in mind only non-transparent materials were affected. If your render queue was above 3000, you're fine.

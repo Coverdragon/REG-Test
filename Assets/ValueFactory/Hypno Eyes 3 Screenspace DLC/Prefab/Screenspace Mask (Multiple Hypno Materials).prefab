@@ -1,0 +1,1575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1391585969972180120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1389241272095152028}
+  - component: {fileID: 1391585969972180131}
+  - component: {fileID: 1391585969972180130}
+  - component: {fileID: 1391585969972180125}
+  - component: {fileID: 1391585969972180124}
+  - component: {fileID: 1391585969972180127}
+  - component: {fileID: 1391585969972180126}
+  - component: {fileID: 1391585969972180121}
+  m_Layer: 0
+  m_Name: Screenspace Mask (Multiple Hypno Materials)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1389241272095152028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585969972180120}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7415172890666590570}
+  - {fileID: 3075334116183356015}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+--- !u!114 &1391585969972180131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585969972180120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2019.4.31f1
+  vrcfuryVersion: 1.828.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Hypno Mask/Hypno Effect
+        state:
+          actions:
+          - id: 1
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    00000001:
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - id: 2
+        - state:
+            actions:
+            - id: 3
+        - state:
+            actions:
+            - id: 4
+        - state:
+            actions:
+            - id: 5
+        - state:
+            actions:
+            - id: 6
+        - state:
+            actions:
+            - id: 7
+        - state:
+            actions:
+            - id: 8
+        - state:
+            actions:
+            - id: 9
+        - state:
+            actions:
+            - id: 10
+        - state:
+            actions:
+            - id: 11
+        - state:
+            actions:
+            - id: 12
+        - state:
+            actions:
+            - id: 13
+        - state:
+            actions:
+            - id: 14
+        - state:
+            actions:
+            - id: 15
+        - state:
+            actions:
+            - id: 16
+        - state:
+            actions:
+            - id: 17
+        - state:
+            actions:
+            - id: 18
+        - state:
+            actions:
+            - id: 19
+        - state:
+            actions:
+            - id: 20
+        - state:
+            actions:
+            - id: 21
+        - state:
+            actions:
+            - id: 22
+        - state:
+            actions:
+            - id: 23
+        - state:
+            actions:
+            - id: 24
+        - state:
+            actions:
+            - id: 25
+        - state:
+            actions:
+            - id: 26
+        - state:
+            actions:
+            - id: 27
+        - state:
+            actions:
+            - id: 28
+        - state:
+            actions:
+            - id: 29
+        - state:
+            actions:
+            - id: 30
+        - state:
+            actions:
+            - id: 31
+        - state:
+            actions:
+            - id: 32
+        - state:
+            actions:
+            - id: 33
+        - state:
+            actions:
+            - id: 34
+        - state:
+            actions:
+            - id: 35
+        - state:
+            actions:
+            - id: 36
+        - state:
+            actions:
+            - id: 37
+        - state:
+            actions:
+            - id: 38
+        - state:
+            actions:
+            - id: 39
+        - state:
+            actions:
+            - id: 40
+        - state:
+            actions:
+            - id: 41
+        - state:
+            actions:
+            - id: 42
+        - state:
+            actions:
+            - id: 43
+        - state:
+            actions:
+            - id: 44
+        - state:
+            actions:
+            - id: 45
+        - state:
+            actions:
+            - id: 46
+        - state:
+            actions:
+            - id: 47
+        - state:
+            actions:
+            - id: 48
+    00000002:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ef8c41e5fa2de3944b5c384840661723|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Binding Pulse Hue 2.mat
+          objRef: {fileID: 2100000, guid: ef8c41e5fa2de3944b5c384840661723, type: 2}
+    00000003:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e213479457f5444489ee8e0bce9dfda6|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Binding Pulse Hue.mat
+          objRef: {fileID: 2100000, guid: e213479457f5444489ee8e0bce9dfda6, type: 2}
+    00000004:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 52a6d78bb3283a54d8356138f150131e|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Binding Pulse.mat
+          objRef: {fileID: 2100000, guid: 52a6d78bb3283a54d8356138f150131e, type: 2}
+    00000005:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6e6db5e1717bce642b3782e5f8e9565a|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log BW Inwards Accumulation.mat
+          objRef: {fileID: 2100000, guid: 6e6db5e1717bce642b3782e5f8e9565a, type: 2}
+    00000006:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: f2d8ce7f73928fd44b4afd4ec61ae912|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Gooey Precipice.mat
+          objRef: {fileID: 2100000, guid: f2d8ce7f73928fd44b4afd4ec61ae912, type: 2}
+    00000007:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 481b79c1a7116de40a2f88ab62b19d06|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Inwards Coiling Compression Vingette.mat
+          objRef: {fileID: 2100000, guid: 481b79c1a7116de40a2f88ab62b19d06, type: 2}
+    00000008:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: efdccbcb15056b547a3b14673d259a11|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Inwards Coiling Compression.mat
+          objRef: {fileID: 2100000, guid: efdccbcb15056b547a3b14673d259a11, type: 2}
+    00000009:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9fdc3018565118648919cc871cdfbe1d|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Inwards Singularity.mat
+          objRef: {fileID: 2100000, guid: 9fdc3018565118648919cc871cdfbe1d, type: 2}
+    0000000A:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 925e28128c7542a4c953aefe5d8f0fee|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Melting Precipice.mat
+          objRef: {fileID: 2100000, guid: 925e28128c7542a4c953aefe5d8f0fee, type: 2}
+    0000000B:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 67ec41e682dfd064ca565443716b7313|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Melting Room.mat
+          objRef: {fileID: 2100000, guid: 67ec41e682dfd064ca565443716b7313, type: 2}
+    0000000C:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ca73f55bce21a0346bcf8c49c2d6f9e2|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Moving Hue.mat
+          objRef: {fileID: 2100000, guid: ca73f55bce21a0346bcf8c49c2d6f9e2, type: 2}
+    0000000D:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 23bc0f0dcec40c14d91a497871eb87e4|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Outwards Buildup Hueshift Push.mat
+          objRef: {fileID: 2100000, guid: 23bc0f0dcec40c14d91a497871eb87e4, type: 2}
+    0000000E:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 5efdf37fb3b74634da31fe3917fe7457|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Pulsing.mat
+          objRef: {fileID: 2100000, guid: 5efdf37fb3b74634da31fe3917fe7457, type: 2}
+    0000000F:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1cf5f5b7c7c4f9f4a9372bd038733f70|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Rainbow Spin.mat
+          objRef: {fileID: 2100000, guid: 1cf5f5b7c7c4f9f4a9372bd038733f70, type: 2}
+    00000010:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1cb394f3f95668241a7311cf8f4dbf7a|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Simple Fade.mat
+          objRef: {fileID: 2100000, guid: 1cb394f3f95668241a7311cf8f4dbf7a, type: 2}
+    00000011:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4b46c933225381741b9b75065a34910f|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Simple Hue.mat
+          objRef: {fileID: 2100000, guid: 4b46c933225381741b9b75065a34910f, type: 2}
+    00000012:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: eecba7a85ab63b04ba4ad5c17b755b27|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Simple Pulsing.mat
+          objRef: {fileID: 2100000, guid: eecba7a85ab63b04ba4ad5c17b755b27, type: 2}
+    00000013:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9b22908ef24def44f8de9b290493036a|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Stevey Meme.mat
+          objRef: {fileID: 2100000, guid: 9b22908ef24def44f8de9b290493036a, type: 2}
+    00000014:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 49ef152095e946c44b1dcf105734413d|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Trans Spinny.mat
+          objRef: {fileID: 2100000, guid: 49ef152095e946c44b1dcf105734413d, type: 2}
+    00000015:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 15820f50bb0ab65478d0e1fa9c6a49bc|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Whirlpool Shift.mat
+          objRef: {fileID: 2100000, guid: 15820f50bb0ab65478d0e1fa9c6a49bc, type: 2}
+    00000016:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a57b44f0057b6c44f8250b9a62bac87a|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Log Whirlpool Waves.mat
+          objRef: {fileID: 2100000, guid: a57b44f0057b6c44f8250b9a62bac87a, type: 2}
+    00000017:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 37a6b15d75e17de4e9825461de34a45b|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Abstract Hue Inward.mat
+          objRef: {fileID: 2100000, guid: 37a6b15d75e17de4e9825461de34a45b, type: 2}
+    00000018:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 990df4f7a726f04488688bd83d0c4284|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Abstract Hue Outward.mat
+          objRef: {fileID: 2100000, guid: 990df4f7a726f04488688bd83d0c4284, type: 2}
+    00000019:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7cda9ebd6ef141241a4f08e62778f2c9|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Abstract Inward.mat
+          objRef: {fileID: 2100000, guid: 7cda9ebd6ef141241a4f08e62778f2c9, type: 2}
+    0000001A:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4fb12091786e7fe4a9f5b1a41344593a|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Bubble Trans.mat
+          objRef: {fileID: 2100000, guid: 4fb12091786e7fe4a9f5b1a41344593a, type: 2}
+    0000001B:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 0d3caa3450100cb48befcc9d6979d317|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Circular Pulse Inversion Hue.mat
+          objRef: {fileID: 2100000, guid: 0d3caa3450100cb48befcc9d6979d317, type: 2}
+    0000001C:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: c7edef1b2aa7ba043ad23bdd13a40062|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Circular Pulse Inversion.mat
+          objRef: {fileID: 2100000, guid: c7edef1b2aa7ba043ad23bdd13a40062, type: 2}
+    0000001D:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bbca73e4cdd86e045a71d1c6f3b4e028|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Color Squircle Power Pulse.mat
+          objRef: {fileID: 2100000, guid: bbca73e4cdd86e045a71d1c6f3b4e028, type: 2}
+    0000001E:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 330e7207baa43fe4685154ca061df5a0|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Monsters Eye Alternate Hueshift.mat
+          objRef: {fileID: 2100000, guid: 330e7207baa43fe4685154ca061df5a0, type: 2}
+    0000001F:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 24711df1e2e80f145bcec7bb9e9dc2c4|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Monsters Eye Alternate.mat
+          objRef: {fileID: 2100000, guid: 24711df1e2e80f145bcec7bb9e9dc2c4, type: 2}
+    00000020:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: ed74929471e30f64c9a82caf945903b2|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Monsters Eye Hueshift.mat
+          objRef: {fileID: 2100000, guid: ed74929471e30f64c9a82caf945903b2, type: 2}
+    00000021:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: d6576d1a27076f840a1e672477e2eb42|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Monsters Eye.mat
+          objRef: {fileID: 2100000, guid: d6576d1a27076f840a1e672477e2eb42, type: 2}
+    00000022:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: d7696625afcc74340b15e180532fc425|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Psychedelic Soap Bubbles.mat
+          objRef: {fileID: 2100000, guid: d7696625afcc74340b15e180532fc425, type: 2}
+    00000023:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 945cabb0b00bd2b499685a27b83e12f5|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Radar Drone Search.mat
+          objRef: {fileID: 2100000, guid: 945cabb0b00bd2b499685a27b83e12f5, type: 2}
+    00000024:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: d057db585469e8440a74736eff369036|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Spinning Oilslick.mat
+          objRef: {fileID: 2100000, guid: d057db585469e8440a74736eff369036, type: 2}
+    00000025:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 356c9e92d7e566d49b0110ebbe57e0e1|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Square Pulse Clock.mat
+          objRef: {fileID: 2100000, guid: 356c9e92d7e566d49b0110ebbe57e0e1, type: 2}
+    00000026:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 782f7a379b1937d4585593de9aa55418|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Polar Sus.mat
+          objRef: {fileID: 2100000, guid: 782f7a379b1937d4585593de9aa55418, type: 2}
+    00000027:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 41be9325a447fb946a2c87467cae5143|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple BW Spin.mat
+          objRef: {fileID: 2100000, guid: 41be9325a447fb946a2c87467cae5143, type: 2}
+    00000028:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1bfa7fa5db8834a49b8cb964072ea528|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Complimentary Spin.mat
+          objRef: {fileID: 2100000, guid: 1bfa7fa5db8834a49b8cb964072ea528, type: 2}
+    00000029:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: da4e4314f8ff8d44dbcb7369c75d74fa|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Compression Hueshift Horizontal.mat
+          objRef: {fileID: 2100000, guid: da4e4314f8ff8d44dbcb7369c75d74fa, type: 2}
+    0000002A:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 39ae4533a680e1c499f84f18f57b63a2|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Compression.mat
+          objRef: {fileID: 2100000, guid: 39ae4533a680e1c499f84f18f57b63a2, type: 2}
+    0000002B:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9bc7a770c117e144b8519d9076527fa7|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Mono Spiral Hueshift.mat
+          objRef: {fileID: 2100000, guid: 9bc7a770c117e144b8519d9076527fa7, type: 2}
+    0000002C:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7a66edd50306d5348ba270c26195e9b7|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Mono Spiral.mat
+          objRef: {fileID: 2100000, guid: 7a66edd50306d5348ba270c26195e9b7, type: 2}
+    0000002D:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e587a149b3220be4c879280bfda0494c|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Sepia Pinwheel.mat
+          objRef: {fileID: 2100000, guid: e587a149b3220be4c879280bfda0494c, type: 2}
+    0000002E:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 12c25485501258342882c91592e00841|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Simple Focal Point.mat
+          objRef: {fileID: 2100000, guid: 12c25485501258342882c91592e00841, type: 2}
+    0000002F:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 51d90f78e5ea0e241852415866fd9ee4|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Simple Inward.mat
+          objRef: {fileID: 2100000, guid: 51d90f78e5ea0e241852415866fd9ee4, type: 2}
+    00000030:
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 7415172890666590571}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 347c1d57fbeced44b9e1d84991594e17|Assets/ValueFactory/Hypno Eyes 3 Screenspace
+            DLC/Materials/Simple Thats All!.mat
+          objRef: {fileID: 2100000, guid: 347c1d57fbeced44b9e1d84991594e17, type: 2}
+--- !u!114 &1391585969972180130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585969972180120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2019.4.31f1
+  vrcfuryVersion: 1.828.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: WorldConstraint, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        menuPath: Hypno Mask/Drop in World
+--- !u!114 &1391585969972180125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585969972180120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2019.4.31f1
+  vrcfuryVersion: 1.828.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Hypno Mask/Show (only for you)
+        state:
+          actions: []
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 1
+        localState:
+          actions:
+          - id: 1
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    00000001:
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 1391585969972180120}
+        mode: 0
+--- !u!114 &1391585969972180124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585969972180120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2019.4.31f1
+  vrcfuryVersion: 1.828.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - id: 1
+    00000001:
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 1391585969972180120}
+        mode: 1
+--- !u!114 &1391585969972180127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585969972180120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2019.4.31f1
+  vrcfuryVersion: 1.828.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Hypno Mask/Hide Hypno (only for you)
+        state:
+          actions: []
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 1
+        localState:
+          actions:
+          - id: 1
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    00000001:
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        renderer: {fileID: 7415172890666590571}
+        affectAllMeshes: 0
+        propertyName: _Screenspace_HideHypno
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1391585969972180126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585969972180120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2019.4.31f1
+  vrcfuryVersion: 1.828.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Hypno Mask/Show Helpers (only for you)
+        state:
+          actions: []
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 1
+        localState:
+          actions:
+          - id: 1
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    00000001:
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        renderer: {fileID: 7415172890666590571}
+        affectAllMeshes: 0
+        propertyName: _Screenspace_RangeHelper_Show
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1391585969972180121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585969972180120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2019.4.31f1
+  vrcfuryVersion: 1.828.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Hypno Mask/Enable
+        state:
+          actions:
+          - id: 1
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    00000001:
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 1391585969972180120}
+        mode: 0
+--- !u!1 &7415172890666590565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7415172890666590570}
+  - component: {fileID: 7415172890666590568}
+  - component: {fileID: 7415172890666590571}
+  m_Layer: 0
+  m_Name: Screenspace Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7415172890666590570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415172890666590565}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.81537, y: 0.81537, z: 0.81537}
+  m_Children: []
+  m_Father: {fileID: 1389241272095152028}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7415172890666590568
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415172890666590565}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7415172890666590571
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415172890666590565}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ef8c41e5fa2de3944b5c384840661723, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &3253693950611084676
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1389241272095152028}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f794d920f23fc944b23acafc1942909, type: 2}
+    - target: {fileID: 919132149155446097, guid: 66913eb4774177d46afa5e5d72e6b656,
+        type: 3}
+      propertyPath: m_Name
+      value: Mask
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 66913eb4774177d46afa5e5d72e6b656, type: 3}
+--- !u!4 &3075334116183356015 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 66913eb4774177d46afa5e5d72e6b656,
+    type: 3}
+  m_PrefabInstance: {fileID: 3253693950611084676}
+  m_PrefabAsset: {fileID: 0}

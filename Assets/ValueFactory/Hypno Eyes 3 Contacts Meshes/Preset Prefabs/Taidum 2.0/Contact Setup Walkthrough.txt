@@ -1,0 +1,12 @@
+1. Find the LeftEye and RightEye bones in the Armature of your avatar.
+  * ALT+Click on the Armature arrow and find the 'Head' dropdown.
+  * Look for the LeftEye and RightEye bones.
+
+2. Drag the 'Left Eye Contact' prefab into 'LeftEye'
+  * This should create a Contact entry in the hierarchy.
+  * If you're getting a popup about unpacking prefabs, don't click ok!
+    Make sure you're dragging the prefab INTO the 'LeftEye' text.
+
+3. Repeat step 2 but with the RightEye bone and the 'Right Eye Contact' prefab.
+
+4. That's it!

@@ -1,0 +1,493 @@
+## Version 3.2
+* New material locking system that's faster and more robust.
+* Added Northern Aspil preset.
+* Added Fox Moth UV preset.
+* Added RegalFin UV preset (submitted by RegalFin)
+
+## Version 3.1.1
+* Added a 'time scale' parameter to the advanced settings that controls the global speed of all speed parameters on a material.
+* Disabled d4rkOptimizer from running on the hypno shader.
+
+## Version 3.1.0.4
+* Fixed a rare issue with the license verification that could lead to an exception being thrown on some machines.
+
+## Version 3.1.0.3
+* Make d4rkAvatarOptimizer not try to optimize the shader (locking already does that!)
+* Moved "VF Hypno 3" to "ValueFactory/Hypno 3" in Project context menus.
+
+## Version 3.1.0.2
+* Added a warning that shows if a spiral doesn't have a color gradient texture set.
+
+## Version 3.1.0.1
+* Fixed the 'Custom Properties' tab showing a warning header.
+
+## Version 3.1
+* Added a third decal slot.
+* Decals can now write into aux modulators.
+
+## Version 3.0.3
+* Changed how stencils work a bit: there is now a 'simple' and 'front and back' mode.
+  Stencils are set to 'simple' by default, which will provide stencil options for all faces.
+  The 'front and back' provides individual stencil settings for the back and front faces. This mode only takes effect when the material is locked.
+
+	This change was done as the front and back options were not properly working previously. A toggle between the two modes was needed for the front and back stencil options to work properly.
+
+## Version 3.0.2.1
+* Added avatar preset for Faelyn.
+* Added avatar preset for Astrawolf.
+
+## Version 3.0.2
+* Support focus changes (see focus changelog)
+* Fixed incorrect interpolator optimization when using the distance and rim modulators.
+
+## Version 3.0.1.3
+* Added Ashbeast preset
+* Added Vulper preset (by Aroxxis)
+* Added Kudalyn Jex preset (by Ookitsu)
+
+## Version 3.0.1.2
+* Added support for Lemon Squeezy license verification.
+
+## Version 3.0.1.1
+* Fixed the license authentication window sometimes showing up when entering play mode. (thanks Davilos for the help!)
+
+## Version 3.0.1
+* Added a 'Tips & Useful Things' section to the manual.
+* Updated the licensing system to communicate with shader.gay servers instead.
+  Licenses are only checked every 48 hours now, so it's possible to continue using the shader without internet access during the 48 hours a license is valid.
+	* Added a privacy policy to the licensing: https://shader.gay/privacy.html
+
+## Version 3.0
+
+* Editor
+	* Added a random gradient generator to the gradient editor.
+	* UI Improvements.
+	* Copy/paste/reset also works with animated states now.
+	* Manual improvements.
+
+* Shader
+	* Added a dissolve modulator.
+	* Dithered transparency defaults to a low-resolution dither to avoid artifacts on certain HMDs. This can be toggled off.
+
+* Presets
+	* Tweaked some default shader values.
+	* Added more presets.
+	* Organized stuff some more.
+	* Prefab tweaks and additions to DLC.
+
+## Version 3.0-alpha7
+* Shader
+	* BREAKING: log spirals do not mirror the gradient by default anymore. Added a 'Mirror Gradient' option which will mirror it. This is off by deafult.
+	* Added a 'shadowing' feature to log and simple spirals which add shadows in between repetitions.
+	* Added a pulsing intensity value to simple spiral pulsing.
+	* Added a regular square shape.
+	* Fixed some bugs.
+
+* Presets
+	* Screenspace: Converted 2.0 screenspace DLC materials to 3.0.
+	* Screenspace: Added the mask prefab.
+	* Focus: Added the focus VRCFury prefab.
+	* Updated some avatar presets.
+
+* Editor
+	* Added documentation to the shaders.
+	* Added a manual.
+	* Added interpolator optimization that runs during locking.
+	* Tweaked some defaults.
+	* Tweaked internal lighting parameters.
+	* Fixed some bugs.
+
+## Version 3.0-alpha6
+* Shader
+	* BREAKING: Changed how the offset parameter works for hue shift textures, distortion textures and decals. If any one of these is off, you'll want to subtract 0.5 from the x and y of the offset parameter of any of these textures.
+	* BREAKING: Reworked how the 'polygon' shape works on the simple spiral to be wayyyy better.
+	* Adjusted how the gradient is mapped to the log spiral so that it's linear.
+	* Added a 'Don't Repeat' option to the simple spiral.
+	* Fixed vignette blending modes not working properly.
+
+* Presets
+	* Converted a bunch of the old 2.0 materials to 3.0.
+	* Added a bunch of pride flag presets.
+	* Updated the 'Calibration' preset.
+
+* Editor
+	* Gradients are now saved in a 'Gradients' folder located in the same folder as the material.
+	* Fixed some editor bugs.
+
+## Version 3.0-alpha5
+
+* Shader
+	* Added 'distance color fade' to the special fx tab.
+	* Added GSAA to the lighting tab.
+	* Fixed hue shift by repetition not working with sidewards gradient.
+	* Added an "Always in front" toggle for focuses
+	* Added an "Touch reactivity compatibility" toggle in 'Rendering' for the normal shader
+
+* Editor
+	* Added copy & paste from clipboard to the manual input of uv centers.
+	* Added a list of gradient textures for enabled spirals in the quick setup tab.
+	* Show warnings when the material state differs from the rendering setting recommended state.
+	* Editor tweaks.
+
+## Version 3.0-alpha4
+
+* Shader
+	* BREAKING: Replaced "Use Mod UV" with a "UV Type" dropdown that is more versatile with "Decal", "Distance" and "Follows shape" options. Closest option to "Use Mod UV" would be to use the "Follows Shape" option.
+	* BREAKING: Removed modulator spirals. Any spiral can now write into 'Aux 1-3' modulator slots. All spirals now also have an option to hide them. Both are available in the 'Advanced' tab on each spiral. The modulator spirals remain in the UI but have no functionality. Take advantage of this to migrate materials that use spiral modulators to not use them anymore by copying the deprecated modulator spirals and pasting them into the normal use and adjusting which Aux modulator they write into. This was done for compilation and upload time optimizations.
+	* BREAKING: Removed a bunch of the esoteric blend modes and only kept "Normal" "Add" "Multiply" "Difference" "Subtract". This was done for compilation and upload time optimizations. Blend modes may be added back if they are needed.
+	* Added a 'Lighting' tab that contains options for realistic PBR lighting using the Filament standard BRDF. Contains options for metallic, roughness and normal maps, clear coat, directional light override, specular override, direct/indirect diffuse/specular contribution weights and emission amount.
+
+* Editor
+	* Disabled compiler optimization in the editor in order to speed up compile times in the editor.
+
+## Version 3.0-alpha3
+
+* Shader
+	* Added a 'Perceptual Color Shift' toggle to 'Rendering' that'll make all hue shifting shift in a	way that has uniform lightness per hue (using oklab). This is on by default.
+	* Added a final opacity map texture.
+	* Added a matcap to special fx.
+	* Added glossiness to special fx.
+	* Added a Color shift to the spirals tab that'll just effect the spirals.
+	* Added a 'Offset' parameter to simple modulators that offsets the time. Useful if you want to turn the sin oscillator into a cos oscillator for circular motion: set the offset to 3.1415/2
+	* Added offset and tiling to decals, overlays, opacity map, dissolve noise.
+	* BREAKING: the uv source for overlay textures will need to be reconfigured if it was set to anything other than UV0.
+
+* Focus:
+	* BREAKING: The forward offset variable will need to be reconfigured.
+	* Added an 'Offset' tab with XYZ offset parameters.
+	* Added a 'Depth Fade' option that will fade out the focus if it gets too close to the camera. Will fix situations where the focus feels like it's clipping into a mirror.
+	* Tweaked focus editor UI, fixed some bugs.
+
+* Editor
+	* Moved the UV source selection into the dropdown for textures.
+	* Renamed HSV to color shift.
+	* Moved the 'overlay' and 'decal' out of the 'texture' tab into their own big tabs.
+	* Added a 'collapse foldouts' button.
+	* Slight speed improvements during locking.
+	* Misc UI Tweaks.
+	* Added some missing error handling.
+	* Made the focus and screenspace mateirals have proper previews in the material preview tab.
+	* Fixed material editor freezing when the edited material got renamed.
+
+* Presets
+	* Tweaked the Lumistera preset.
+	* Tweaked the Spiri'valu preset.
+
+## Version 3.0-alpha2
+
+* Editor
+	* UV center UI simplifications
+		* UV center 'position' groups are now hidden by default.
+		* Added a 'quick setup' tab to the base shader. This will show options for configuring the first UV center.
+		* Added an option for an 'advanced uv center setup' in the quick setup tab which will show uv center positioning options and hide the 'quick setup' tab.
+
+	* Screenspace and focus materials will now always have their fallback shader set to hidden.
+	* Editor UI tweaks
+	* Show a popup when trying to switch to a DLC variant that isn't available in the project.
+	* Material editor performance improvements.
+
+* Shader
+	* Added mirroring, offset and scale options to logarithmic spiral shapes.
+	* Added proper shadowcasters.
+	* SPS-I fixes.
+	* Fixed stenciling.
+
+* Avatar Presets
+	* Added a 'Calibration' material to use when creating avatar presets.
+	* Added Vivi Manokit preset.
+	* Added Spiri'vali preset.
+	* Added Novabeast Visor preset.
+	* Adjusted the scale of the Novabeast preset.
+
+## Version 3.0-alpha1
+* Redesigned the UI.
+* Combined the 1D, Log and Polar shaders into one shader.
+* Added 12 spiral slots and 3 slots for modulation spirals.
+* Added modulation.
+* Added UV center picker.
+* Added gradient editor.
+* Added 4 uv center slots, options for 1,2,3,4 eyes and a advanced option with UV remap texture for infinite eyes.
+* Added more shape options.
+* Added distortion options.
+* Added a hue shift texture option.
+* Added spiral limiting options.
+* Added blend modes.
+* Added dithered transparency.
+* Added decal textures and more texture overlay slots.
+* Added flipbooks to decal textures.
+* Added dissolve.
+* Added HSV post processing.
+* Expanded the fallback shader options.
+* Redesigned the polar shader to be more versatile, while having an option to use the old version in the 'Advanced' settings.
+* Added Fae Moth UV centers (thanks, Vivi!)
+
+== Version 2.7.0.9 - 2024-05-31 ==
+* Added Lumistera UV center preset (thanks, Ender Dreemurr!)
+* Added Winterbold UV center preset (thanks, Ender Dreemurr!)
+* Added Aspil UV center preset (thanks, Vivi!)
+* Added Snoggodal UV center preset (thanks, Ookitsu!)
+* Added Estellios UV center preset (thanks, fFoxes!)
+* Added BubblegumBark UV Canine center preset (thanks, ThyCorgiKing!)
+* Added Vulparii UV center preset (thanks, Legacy!)
+* Added Khinro Herol UV center preset (thanks, Voldrak!)
+* Added Pound Industries Tech Visor UV center preset (thanks, Burner!)
+* Added Waggan UV center preset.
+
+== Version 2.7.0.8 - 2024-01-14 ==
+* Added Novabeast lens UV center preset (thanks, Ookitsu!)
+* Added Winderpaw canine UV center preset (thanks, Wolfenstin!)
+* Added Arflin UV center preset (thanks, RykerJames!)
+* Added Chaos Canine UV center preset (thanks, Disvect and Serim!)
+* Added Fara rex eye UV center preset (thanks, Eveready!)
+* Added Wolfman UV center preset (thanks, Lycos Hayes!)
+
+* Improved texture aliasing on the 1D due to better mipmap sampling (thanks, McArdellje!)
+* Fixed backfaces on the parallax shader creating an inverse parallax effect.
+
+== Version 2.7.0.7 - 2023-12-15 ==
+* Separated the contacts into their own folder as both the compatibility tester and the full
+package utilize them.
+
+== Version 2.7.0.6 - 2023-08-17 ==
+* Added Ember (Foxipaws) UV Centers.
+
+== Version 2.7.0.5 - 2023-08-15 ==
+* Added Felidal UV Centers (thanks @WelshAnomaly!)
+
+== Version 2.7.0.4 - 2023-08-08 ==
+* Added Azalea UV Centers.
+
+== Version 2.7.0.3 - 2023-07-24 ==
+* Added Umiko The Orca V2 UV Centers (thanks, Maowii!)
+
+== Version 2.7.0.2 - 2023-04-11 ==
+* Added a parameter to hide the screenspace effect in mirrors.
+  This is on by default!
+* Added Jerry Avali centers (thanks, @WelshAnomaly)
+
+* Fixed auto-fix buttons not appearing for materials that have improper blend modes when transparent
+  rendering is off.
+
+== Version 2.7.0.1 - 2023-03-31 ==
+* The Screenspace DLC material editor will now offer auto-fixes to set the render queue of non-transparent materials to 1001 when it's less than 1001. (thanks, Storm, for the report!)
+
+  This will stop any of the material presets from applying to the skybox instead of the cube you want to drag them onto.
+
+	You'll likely want to update your materials to use the 1001 render queue if this was something you kept running to!
+
+	Keep in mind only non-transparent materials were affected. If your render queue was above 3000, you're fine.
+
+== Version 2.7 - 2023-03-30 ==
+* Screenspace DLC compatibility.
+* Added screenspace DLC panel.
+* Added stencil options in to the Advanced tab.
+* Added 'Explain' buttons that try to explain what a parameter does.
+* Added vignetting parameters.
+* Added auto-fixes for weird depth buffer configurations.
+* Added the '1D Mac' preset material.
+* Simplified how the mirroring/separate spin factors UI works in the Log, 1D and Polar material 
+  editors.
+* Added Deuzear centers (thanks, @WelshAnomaly)
+* Added Nicoreda Wickerbeast centers (thanks, @WelshAnomaly)
+* Added Tropical Kangaroo centers (thanks, https://linktr.ee/Devv_RM !);
+
+* Fixed a bug where 'reset zwrite and ztest' would not properly reset ztest and zwrite on some
+  shader types.
+* Fixed a bug where selecting multiple materials with varying transparent states would mess up
+  various render settings relating to transparent rendering.
+* Fixed an issue where hue modulation would result in div by zero in the log spiral if Size is set
+  to zero. (thanks Maple!)
+* Fixed duplicate parameters in the Log Spiral shader causing compilation errors in rare situations (thanks, Seedsy, for the report!)
+
+* Improved material preview displays.
+* Adjusted the UI of material editors.
+
+== Version 2.6.2 - 2023-02-15 ==
+
+* Fixed single pass rendering. Currently irrelevant for VRChat but relevant for CVR users!
+* Added center presets for Yet Another Fox https://emperorofmars.itch.io/yaf (thanks, LakesideMiners!)
+* Added center presets for Lykana https://lykana.gumroad.com/l/Lykana (thanks, Vivi!)
+
+== Version 2.6.1 - 2023-01-18 ==
+* Add the ability to use different UV sets for UV centers to be used for the Log, 1D and Polar
+  shaders.
+
+	With this you'd be able to use the UV center method with eyes that have a non-circular UV unwrap
+	by default. In these situations, you'd create a new UV set on the mesh and unwrap the eyes to have
+	circular UVs with a center, then set the material to use that UV set. 
+
+	Eye textures will not be broken as they'd still use the base UV set!
+
+* Added Dergodal centers (thanks, @WelshAnomaly)
+
+* Fixed the 'failed to open source' shader compilation error that sometimes appears when updating
+  the hypno shader package.
+* Fixed a compile error when the eyes package is imported into a world project.
+
+* Show a warning if transparent rendering is enabled and the render queue is below 3000 or if the
+  destination blend properties are not set to postmultipled alpha.
+* Added the ability to lock multiple of the same material (as long as they're using the same shader)
+  in the material editor at the same time.
+* Added a context menu to the project view with options to lock and unlock selected hypno materials.
+* Added buttons for reseting the ztest, zwrite, cull, source blend and destination blend options to
+  their defaults.
+
+* Made the license activation window scrollable and shrinkable.
+* Added a bunch of missing people to the credits.
+* Replace the Gumroad link with a link to shader.gay.
+* Added missing material setup tutorial video buttons.
+* Hypno materials now cast shadows by default.
+* Added a link to the Focus DLC in the showcase world.
+
+== Version 2.6.0.1 - 2022-11-23 ==
+* Fix an issue that caused locking to not occur when uploading to VRChat.
+
+== Version 2.6 - 2022-11-23 ==
+* Added the 1D Logarithmic Spiral shader.
+* Added 19 material presets for the Logarithmic Spiral shader.
+* Added an opacity map texture slot to the 2D polar and 1D hypno shaders under the 'Transparent
+  rendering' checkbox.
+* Added an option to create custom UV center presets.
+* Added Canis centers (thanks, @NikruPuppy)
+* Added Draconian centers (thanks, @Sharkacuga)
+* Added Da'Vali centers (thanks, @WelshAnomaly)
+* Added Winterpaw Male Canine centers (thanks, @WelshAnomaly)
+* Added Chipori centers (thanks, @WelshAnomaly)
+* Added Kobodal contact presets.
+* Added license key verification.
+* Fixed incorrect locking results when number parameters didn't have any decimals.
+
+== Version 2.5.5 - 2022-11-08 ==
+* Updated the UI.
+* Updated URLs.
+* Added Miune UV centers (thanks, Eliza the void dragon cat!)
+* Fixed a bug with the preset selection that made current preset selection not take into account
+  single eye mode.
+
+== Version 2.5.4 - 2022-10-23 ==
+* Add Sergodal UV centers (thanks, @WelshAnomaly!)
+* Added a cginc file to avoid unlocked shader distribution.
+* Updated contact URLs.
+
+== Version 2.5.3 - 2022-10-18 ==
+* Added contact prefabs for easier setup.
+* Converted the Ampwave and the Tigerbee contact setups into contact prefabs.
+* Added Contact prefabs for Taidum 2.0.
+* Added Contact prefabs for Taidum Legacy.
+
+== Version 2.5.2 - 2022-10-11 ==
+* Added UV Center presets for the Zoichi 3.0
+* Added 'Zoichi White Specular Overlay Texture' texture
+
+== Version 2.5.1 - 2022-10-04 ==
+* Added a contact preset for the Tigerbee
+* Added a Contact - Almost Full Sphere model.
+* Updated the terms of use.
+* Updated the Batdal UV centers to not have a seam in them (thanks, Zyntaks!)
+
+== Version 2.5 - 2022-07-28 ==
+* Added 32 new material presets.
+* Added a style selection for 1D and Polar shaders with 4 available styles.
+* Added the 'Pulsing' option to the 1D shader.
+* Added an auto-installer for the Postprocessing package that runs on first import.
+* Added a new skybox to the showcase scene.
+* Added a fallback texture preview.
+* Added a goo shader panel into showcase scene.
+* Fixed the shader baker not properly writing HDR color values linearly.
+* Tweaked the panels in the showcase scene.
+* Tweaked the UVs of the eyeballs mesh.
+* And various misc small changes.
+
+== Version 2.0 - 2022-07-28 ==
+This version does not overwrite the 1.* assets! 
+You can use both versions as the same time.
+
+* Added 17 new material presets.
+* Added transparent rendering for all shaders.
+* Added 'Rotation Adjustment' for Polar 2D and 1D shaders.
+* Added a reflection intensity slider.
+* Added buttons to tutorial videos across all editors.
+* Added an 'Advanced' section to all editors that lets you pick blending factors as well as the
+  culling mode.
+* Added a notice for when you are about to edit/inspect a preset material.
+* Added a 'Squish' parameter to the 1D shader.
+* Added a Glasses model.
+* Added a Contacts model.
+* Added the JinA Ampwave contacts setup preset.
+* Added a link to the new contact setup video.
+* Added a file listing all the available tutorials.
+* Added the ability to hide the shader instead of using a VRC fallback.
+* Added a popup window that shows up on first-install that links to tutorials and the showcase scene.
+* Added a 'Hypno' prefix to the shader names.
+* Added a 'Hue Shift' section to the Polar 2D shader.
+* Added a Batdal UV center preset.
+* Added a 'Centered' UV center preset for contacts, default glasses, Polycrow aviators.
+* Added a instructions on how to set up a peripheral hypno background.
+* Added a bunch of information to the showcase scene.
+* Added TUTORIALS.txt
+* Improved the UI for all shader editors.
+* Improved some of the randomness in the Parallax 3D offset and rotation parameters.
+* Improved the organization of the showcase scene.
+* Improved how the color alpha channel interacts with Parallax 3D parallax layers alpha value
+  accumulation.
+* Improved the naming and organization of the material files.
+* Tweaked the 'Speed' parameter of the Polar 2D and 1D shaders to be 100x less sensitive to changes.
+  * To convert an old speed value into the new speed value, multply the old one by 100.
+* Tweaked the Parallax 3D shader to use the sampler state of the given parallax depth texture to
+sample the parallax depth texture with instead of always using the clamp sampler.
+	* Added a notice for this in the UI.
+* Tweaked how 'Spin' works in the 1D shader to make it more human friendly.
+* Tweaked how 'by Repetition' works in the 1D shader to make it more human friendly.
+* Tweaked how some of the rotation parameters work on the Parallax 3D shader to be per-layer
+  instead of per-depth.
+* Tweaked some material presets.
+* Removed the 'Layer Jiggle Frequency' Parallax 3D parameter as it was no longer necessary.
+* Removed [Toggle] attributes on shader parameters.
+* Removed INSTRUCTIONS.txt 
+* Hoisted some center related code into the vertex shader as an optimization.
+
+== Version 1.6 - 2022-07-17 ==
+
+* Added the single eye mode.
+	* You can use this to achieve more complex asymmetric effects. Best used with a separate left and
+	  right material slot for the eyes.
+	* The protogen materials use this mode by default as they do not have left/right eyes.
+	* Using this mode will also increase performance as the shader does not have to figure out which
+	  eye it's working with!
+
+* Added a color option for all textures.
+
+* Added an emission strength slider for all textures.
+	* Added a post processing layer & volume to the showcase scene to show these emissions.
+	* Added instructions for installing the post processing package to the INSTRUCTIONS.txt file.
+	  The post processing package won't be installed on import unfortunately :(.
+
+* Fixed the Parallax3D parallax effect looking wrong when the object has negative scale.
+
+== Version 1.5 - 2022-06-25 ==
+
+* Added old Hobkin and Hyenid UV centers (thanks, @SamoyedibleNSFW !)
+* Remove shader keywords on lock.
+* Added some extra info on UV center to the parallax shader editor.
+
+== Version 1.4 - 2022-06-14 ==
+
+* Fixed locked shader compiler errors in certain situations. (thanks, @nick_yarkovish, for the report!)
+
+== Version 1.3 - 2022-06-09 ==
+
+* Fixed the material locker creating shaders that have inconsistent results across different
+  cultures, including creating shaders that fail to compile due to the culture defaulting to using a
+  comma as a decimal separator instead of a period. (thanks, @Guuvita, for the report!)
+
+== Version 1.2 - 2022-06-02 ==
+
+* Fixed the material locker crashing when there is mesh on an avatar or in the world that has a material slot
+  that has not been assigned a material. (thanks, @SaltySnickerBE, for the report!)
+
+== Version 1.1 - 2022-06-01 ==
+
+* Added UV centers for the Kirin, Rexouium and the Nardodragon. (contributed by @Shalkor_L_D, @SaltySnickerBE)
+* The button for the current used preset will now show as being green so it's obvious which preset
+  you're using.
+* Added a CREDITS.txt file.

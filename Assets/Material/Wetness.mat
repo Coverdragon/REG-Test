@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wetness
+  m_Shader: {fileID: 4800000, guid: aa583b6d99a90044e9e4788221570c7f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2451
+  stringTagMap:
+    thry_rename_suffix: Wetness
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Mask:
+        m_Texture: {fileID: 2800000, guid: a65b325ada806af4dae038cf416842f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _color_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+      _cube_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _environment_mask:
+        m_Texture: {fileID: 2800000, guid: a65b325ada806af4dae038cf416842f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _flow_normal:
+        m_Texture: {fileID: 2800000, guid: 05a19338a984e4146861b3289d8ca509, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+      _normal_map:
+        m_Texture: {fileID: 2800000, guid: 477c29302518979469159ff4928abec3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+      _alpha_wet: 0.5
+      _alpha_wet_shadow: 2
+      _cube_map_val: 0
+      _flow_length: 0.1
+      _flow_normal_scale: 3
+      _flow_offset: -0.5
+      _flow_speed: 0.015
+      _fresnel: 8.82
+      _normal_scale: 1
+      _power: 0.5
+      _refraction: -0.0172
+      _skybox_val: 2.32
+      _smoothness: 0.847
+      _specular: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _color: {r: 1, g: 1, b: 1, a: 0}
+      _environment_color: {r: 1, g: 1, b: 1, a: 1}
+      _flow_vector: {r: 0, g: -1, b: 0, a: 0}
+  m_BuildTextureStacks: []

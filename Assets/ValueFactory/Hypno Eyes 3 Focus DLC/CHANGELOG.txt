@@ -1,0 +1,36 @@
+## Version 3.0.3
+* Changed how stencils work a bit: there is now a 'simple' and 'front and back' mode.
+  Stencils are set to 'simple' by default, which will provide stencil options for all faces.
+  The 'front and back' provides individual stencil settings for the back and front faces. This mode only takes effect when the material is locked.
+
+	This change was done as the front and back options were not properly working previously. A toggle between the two modes was needed for the front and back stencil options to work properly.
+
+== Version 3.0.2
+* Added a 'Distance Fade (Entire Focus)' option that will fade the whole focus out based off of distance from the focus center (as opposed to the distance of the individual pixels)
+* Fixed some issues with alpha blending when using transparency with edge fade.
+
+== Version 3.0
+* Public 3.0 release.
+
+== Version 3.0-alpha1
+* Version 3.0 compatibility.
+
+== Version 1.3 - 2024-05-31 ==
+* Updated the VRCFury Focus prefab to be more modular. (thanks, Burner!)
+
+== Version 1.2 - 2023-07-24 ==
+* Added the VRCFury Focus Prefab.
+* Updated the showcase scene to point to the focus prefab.
+* Added a link to the focus prefab setup video in the tutorials list:
+	https://www.youtube.com/watch?v=0hcNj2I4nhQ
+* Updated credits.
+
+== Version 1.1 - 2023-03-30 ==
+* Updated to be compatible with base hypno 2.7.
+* Include panel for the screenspace DLC.
+
+== Version 1.0.1 - 2023-02-15 ==
+
+* Fixed single pass rendering. Currently irrelevant for VRChat but relevant for CVR users!
+* Added a panel for VRCQuestTools users to inform them that they should disable the auto-remove
+vertex color feature of VRCQuestTools to avoid Focuses going invisible.

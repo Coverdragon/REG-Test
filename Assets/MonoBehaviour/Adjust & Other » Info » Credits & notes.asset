@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Adjust & Other » Info » Credits & notes
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#E8FEFF><b>The main texture & bandanna is inspired by an avi from RenardLaFrite, Please check out their work.</b></color>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#BDFFDB><b>Hydroponics design is my own thing </b></color>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b><color=#CDFFB6>Goggles, Tugcord, and airtank by me, comissioned by Zaphyr</color></b>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b><color=#A6FF79>(I''ve prefabbed the tugcord since a lot of people wanted it, you can find it on my carrd for free)</color></b>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b><color=#D2FF7C>Hypno Shader by value, Droplet shader by HHEAVENS, highswept hair by LunarArray</color></b>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b><color=#F5FF75>Paw sounds provided by ferr1te, squishtech & tummy squeaks by me</color></b>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<b><color=#FFEAA2>Inflatable Regulus Shapekeys by Sluz, you can find their work in their booth.pm</color></b>'
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Stuff I have to say
+    icon: {fileID: 2800000, guid: 8a0a557e3ba9cc141a0cebde73e107d3, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: da9d89e00ba8da24f812616ede14c3eb, type: 2}
+    subParameters:
+    - name:
+    labels: []

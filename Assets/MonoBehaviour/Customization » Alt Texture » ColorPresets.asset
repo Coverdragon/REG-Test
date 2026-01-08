@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Customization » Alt Texture » ColorPresets
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name:
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#FFFFFF>✦</color>'
+    icon: {fileID: 2800000, guid: 54134bc47c1065546b2573b9eee1ff30, type: 3}
+    type: 101
+    parameter:
+      name: C/ColorAltPresetPicker
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#FFFFFF>✦</color>'
+    icon: {fileID: 2800000, guid: be4495ff62632414c819d3c449b6ef56, type: 3}
+    type: 101
+    parameter:
+      name: C/ColorAltPresetPicker
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#FFFFFF>✦</color>'
+    icon: {fileID: 2800000, guid: b4bb78b32b5ecd344a2d2fb5d3c2ebb8, type: 3}
+    type: 101
+    parameter:
+      name: C/ColorAltPresetPicker
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#FFFFFF>✦</color>'
+    icon: {fileID: 2800000, guid: c777f438b75f4384a80f939840014392, type: 3}
+    type: 101
+    parameter:
+      name: C/ColorAltPresetPicker
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#FFFFFF>✦</color>'
+    icon: {fileID: 2800000, guid: a7633bbd6125dfb4fb4e4a2e74e45c6e, type: 3}
+    type: 101
+    parameter:
+      name: C/ColorAltPresetPicker
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name:
+    icon: {fileID: 2800000, guid: 3d5a9b34af7386f49b248d1661ef402a, type: 3}
+    type: 101
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Customization » Extra Accesories
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#E9FFB6>Goggy Up</color>'
+    icon: {fileID: 2800000, guid: b6c31cbf0ac23a645b98ca589a548e0b, type: 3}
+    type: 102
+    parameter:
+      name: C/GogglesUp
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6F9FF>Goggy</color>'
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 102
+    parameter:
+      name: C/Goggles
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6F9FF>Airtank</color>'
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 102
+    parameter:
+      name: C/Airtank
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6F9FF>Fin</color>'
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 102
+    parameter:
+      name: C/Fin
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6FFDF>Tugcord Collar</color>'
+    icon: {fileID: 2800000, guid: 15f6065c098e8fa43b3d7f57f204e5b6, type: 3}
+    type: 102
+    parameter:
+      name: C/CollarTugcord
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6FFDF><b>Explode on tug</b></color>'
+    icon: {fileID: 2800000, guid: 96351c386c6ce6940a93df0fb8b08b24, type: 3}
+    type: 102
+    parameter:
+      name: C/TugcordExplode
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6FFDF><b>Disable Tug SFX</b></color>'
+    icon: {fileID: 2800000, guid: 682a3e8411b210d498f119a4d0730eb1, type: 3}
+    type: 102
+    parameter:
+      name: C/TugcordDisableSFX
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6FFDF><b>Do not Exceed 50</b></color>'
+    icon: {fileID: 2800000, guid: 08b1bb38883e3a541a2b8f768135b1ea, type: 3}
+    type: 102
+    parameter:
+      name: C/TugcordDoNotExceed50
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Adjust & Other
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<b>Expressions</b>'
+    icon: {fileID: 2800000, guid: 0535ac4e977dc0e448e48d4f2c727167, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 33f75ac6745282544a8d11ad0902df0d, type: 2}
+    subParameters: []
+    labels: []
+  - name: Wrist Grabbing
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 102
+    parameter:
+      name: L/ArmGrabbing
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#C6F5F4>Inflate Foot Paw</color>'
+    icon: {fileID: 2800000, guid: af87f0ab06f0dd2449a494e4e06bb5b9, type: 3}
+    type: 102
+    parameter:
+      name: L/FattenFootPaw
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#C9E6E9>Paws Puppet</color>'
+    icon: {fileID: 2800000, guid: 76641e81d23747145b5f0970980e03a4, type: 3}
+    type: 201
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: PawX
+    - name: PawY
+    labels:
+    - name: 上
+      icon: {fileID: 0}
+    - name: 右
+      icon: {fileID: 0}
+    - name: 下
+      icon: {fileID: 0}
+    - name: 左
+      icon: {fileID: 0}
+  - name: '<color=#D7FFFD>Tail Puppet</color>'
+    icon: {fileID: 2800000, guid: 76641e81d23747145b5f0970980e03a4, type: 3}
+    type: 201
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: TailX
+    - name: TailY
+    labels:
+    - name: 上
+      icon: {fileID: 0}
+    - name: 右
+      icon: {fileID: 0}
+    - name: 下
+      icon: {fileID: 0}
+    - name: 左
+      icon: {fileID: 0}
+  - name: '<b><color=#FFEFA0>VRCLV</color></b>'
+    icon: {fileID: 2800000, guid: 0330839edfd63f04eb53b03301c953cc, type: 3}
+    type: 102
+    parameter:
+      name: C/VRCLV
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#C9FFFC><b>Patchnotes</b></color>'
+    icon: {fileID: 2800000, guid: 4f9b2595265a2ca418bad5e62daef7c4, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f400fdaca6a15ec45b528dbd0e779d6b, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<color=#FFFFFF><b>Info</b></color>'
+    icon: {fileID: 2800000, guid: 4f9b2595265a2ca418bad5e62daef7c4, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 9e8d484acd506cd4abd1d21400681fa6, type: 2}
+    subParameters:
+    - name:
+    labels: []

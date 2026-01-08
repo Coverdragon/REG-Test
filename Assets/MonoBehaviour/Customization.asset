@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ab6c03d9a8dda3fead460250622100, type: 3}
+  m_Name: Customization
+  m_EditorClassIdentifier:
+  Parameters: {fileID: 0}
+  controls:
+  - name: '<color=#D8FF8D><b>Alt Texture</b></color>'
+    icon: {fileID: 2800000, guid: 13a8c1d6e70ee8e4da17f85efca09ad0, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cfc7bc44dc5ff804d8aeda09928149ec, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<color=#CBFFEE>Splishy Drrroplets</color>'
+    icon: {fileID: 2800000, guid: 3367fe5ac6b89a144a996f3b7e361ba8, type: 3}
+    type: 203
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: C/WetDropletsSTR
+    labels: []
+  - name: '<color=#B6F9FF>Handles</color>'
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 102
+    parameter:
+      name: C/Handles
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6FAFF>Neckerchief</color>'
+    icon: {fileID: 2800000, guid: 6e5e634112a2f4e43942a35ce7ac5198, type: 3}
+    type: 102
+    parameter:
+      name: C/Neckerchief
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '<color=#B6FAFF><b>Extra Accesories</b></color>'
+    icon: {fileID: 2800000, guid: be573534dce3764409d185c412a9a906, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d8bb6bbaa760a5b4a88043283c7bfff0, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<color=#A8A0FF><b>Squeaks</b></color>'
+    icon: {fileID: 2800000, guid: be573534dce3764409d185c412a9a906, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6947bef0a76927143bd07c4b60ac4dbc, type: 2}
+    subParameters:
+    - name:
+    labels: []
+  - name: '<color=#FFAF83><b>Hypno</b></color>'
+    icon: {fileID: 2800000, guid: be573534dce3764409d185c412a9a906, type: 3}
+    type: 103
+    parameter:
+      name:
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 732ad566cc76c2347934f1a14952b826, type: 2}
+    subParameters:
+    - name:
+    labels: []
